@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  background-color: azure;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+section {
+  margin: 20px;
+}
+
+section a {
+  display: inline-block;
+  text-decoration: none;
+  color: #007bff;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header a {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+table thead tr th {
+  font-weight: bold;
+  text-align: left;
+}
+
+section a:first-child {
+  margin-right: 10030px;
+}
+
+table tbody tr td {
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even
